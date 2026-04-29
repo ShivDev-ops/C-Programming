@@ -8,7 +8,7 @@
 
 3 - realloc() - This is used to reserve memory for array elements in case youre adding more elements
 
-4 - free() - 
+4 - free() - This is used to free the pointer from location its assigned to, you have to assign it to NULL after freeing the pointer
 
 Memory Leak - This is a situation occurs when you keep on allocating the memory is calloc or malloc but not using free(ptr) to remove that memory allocated  
 */
