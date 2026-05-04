@@ -5,7 +5,7 @@
 1 - Null Pointer - A pointer when it is not pointing to any variable.
 2 - Wild Pointer - Any pointer which is declared but not initialized. 
 3 - Void Pointer - Generic pointer which can point to any data type.
-4 - Dangling Pointer - 
+4 - Dangling Pointer - after using free() on any pointer it is assigned to nothing so to counter that we assign it to null (ptr = NULL)
 5 - Constant Pointer - 
 
 */
